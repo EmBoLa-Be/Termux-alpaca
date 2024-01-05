@@ -22,7 +22,7 @@ if [[ $choice -eq "1" ]]
            # install necessary packages
            pkg install clang wget git megatools cmake -y
            #cloning the github repository of alpaca.cpp                                                                                                       
-           git clone  https://github.com/antimatter15/alpaca.cpp
+           git clone  https://github.com/ggerganov/llama.cpp
            #enter alpaca.cpp folder
            cd alpaca.cpp                                                                                                                                      
            #start building alpaca.cpp (if you get an error try replqcing make with cmake and see if that works)
