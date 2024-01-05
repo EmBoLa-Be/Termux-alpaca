@@ -33,7 +33,7 @@ if [[ $choice -eq "1" ]]
            #downloading the 7B alpaca model
            if [ $website -eq "1" ] 
 		then
-                wget https://huggingface.co/Sosaka/Alpaca-native-4bit-ggml/resolve/main/ggml-alpaca-7b-q4.bin
+                wget https://huggingface.co/tog/TinyLlama-1.1B-alpaca-chat-v1.5/blob/main/pytorch_model.bin
            else
                 megadl https://mega.nz/file/3ZI2lA5Y#bAPt0tKWexZMf0GhoI_RMQ0OH4vXWFyfFbykXrIKZAY
            fi
