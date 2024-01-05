@@ -10,7 +10,7 @@ how to use:
 pkg update && pkg upgrade -y
 pkg install git -y
 cd
-git clone https://github.com/Tempaccnt/Termux-alpaca
+git clone https://github.com/EmBoLa-Be/Termux-alpaca
 cd Termux-alpaca
 chmod +x termux-alpaca.sh
 ./termux-alpaca.sh
